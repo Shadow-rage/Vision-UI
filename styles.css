@@ -16,55 +16,55 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
-.topbar {
+/* Header Styles */
+.header {
     padding: 20px 0;
     background: transparent;
 }
 
-.topbar .container {
+.header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.brand h1 {
+.logo h1 {
     color: #68D391;
     font-size: 32px;
     font-weight: 700;
 }
 
-.menu {
+.nav {
     display: flex;
     gap: 40px;
 }
 
-.menu-link {
+.nav-link {
     text-decoration: none;
     color: #64748b;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-.menu-link.active,
-.menu-link:hover {
+.nav-link.active,
+.nav-link:hover {
     color: #1e293b;
 }
 
-.auth {
+.auth-buttons {
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-.btn-login {
+.login-btn {
     text-decoration: none;
     color: #64748b;
     font-weight: 500;
     padding: 8px 16px;
 }
 
-.btn-signup {
+.signup-btn {
     text-decoration: none;
     background: #68D391;
     color: white;
@@ -74,26 +74,26 @@ body {
     transition: background 0.3s ease;
 }
 
-.btn-signup:hover {
+.signup-btn:hover {
     background: #48BB78;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
     padding: 80px 0 120px;
 }
 
-.hero-grid {
+.hero-content {
     display: flex;
     align-items: center;
     gap: 80px;
 }
 
-.hero-copy {
+.hero-left {
     flex: 1;
 }
 
-.hero-heading {
+.hero-title {
     font-size: 64px;
     font-weight: 700;
     color: #1a202c;
@@ -109,20 +109,20 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-subtext {
+.hero-description {
     font-size: 18px;
     color: #64748b;
     line-height: 1.6;
     margin-bottom: 40px;
 }
 
-.hero-ctas {
+.hero-buttons {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.btn-try {
+.try-free-btn {
     background: #68D391;
     color: white;
     border: none;
@@ -134,11 +134,11 @@ body {
     transition: background 0.3s ease;
 }
 
-.btn-try:hover {
+.try-free-btn:hover {
     background: #48BB78;
 }
 
-.btn-demo {
+.view-demo-btn {
     background: transparent;
     border: none;
     color: #64748b;
@@ -150,7 +150,7 @@ body {
     gap: 10px;
 }
 
-.icon-play {
+.play-icon {
     width: 40px;
     height: 40px;
     background: white;
@@ -162,19 +162,19 @@ body {
     font-size: 12px;
 }
 
-/* Hero art */
-.hero-art {
+/* Hero Right Side */
+.hero-right {
     flex: 1;
     position: relative;
 }
 
-.art-stack {
+.hero-image-container {
     position: relative;
     width: 100%;
     height: 500px;
 }
 
-.stat-card {
+.dashboard-card {
     position: absolute;
     background: white;
     border-radius: 12px;
@@ -185,31 +185,31 @@ body {
     gap: 8px;
 }
 
-.stat-send {
+.sent-amount {
     top: 20px;
     left: 20px;
     width: 160px;
 }
 
-.stat-income {
+.total-income {
     bottom: 100px;
     left: 0;
     width: 140px;
 }
 
-.stat-label {
+.card-label {
     font-size: 12px;
     color: #64748b;
     font-weight: 500;
 }
 
-.stat-value {
+.card-value {
     font-size: 18px;
     font-weight: 700;
     color: #1a202c;
 }
 
-.btn-send {
+.send-btn {
     background: #68D391;
     color: white;
     border: none;
@@ -221,12 +221,12 @@ body {
     margin-top: 8px;
 }
 
-.card-icon {
+.chart-icon {
     font-size: 16px;
     margin-top: 4px;
 }
 
-.art-person {
+.person-image {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -239,13 +239,13 @@ body {
     z-index: 1;
 }
 
-.art-person img {
+.person-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.card-credit {
+.credit-card {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -258,19 +258,19 @@ body {
     z-index: 2;
 }
 
-.card-head {
+.card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.card-title {
+.card-type {
     font-size: 12px;
     font-weight: 500;
 }
 
-.dots {
+.card-dots {
     display: flex;
     gap: 4px;
 }
@@ -282,12 +282,12 @@ body {
     border-radius: 50%;
 }
 
-.card-expiry {
+.card-number {
     font-size: 14px;
     font-weight: 600;
 }
 
-.float-icons {
+.floating-icons {
     position: absolute;
     top: 0;
     left: 0;
@@ -308,19 +308,19 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.icon-yellow {
+.icon.yellow {
     background: #FED7AA;
     top: 80px;
     right: 40px;
 }
 
-.icon-blue {
+.icon.blue {
     background: #BFDBFE;
     top: 200px;
     left: 40px;
 }
 
-.icon-orange {
+.icon.orange {
     background: #FED7AA;
     bottom: 200px;
     right: 60px;
