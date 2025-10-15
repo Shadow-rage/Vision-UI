@@ -102,7 +102,7 @@ body {
 }
 
 .title-underline {
-    width: 200px;
+    width: 300px;
     height: 4px;
     background: #68D391;
     border-radius: 2px;
@@ -127,7 +127,7 @@ body {
     color: white;
     border: none;
     padding: 16px 32px;
-    border-radius: 12px;
+    border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -926,3 +926,4 @@ body {
 
 
 }
+
